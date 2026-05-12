@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-light";
+  src: url("/src/styles/fonts/Roboto-Light.ttf");
+  font-weight: 300;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 430px;
+  height: 100vh;
+  font-family: "Roboto-light";
+  background: #212125;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
+}
