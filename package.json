@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "weather-app-old",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://n1nt3ch.github.io/weather-app-old"
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.2.4",
     "@reduxjs/toolkit": "^1.9.5",
